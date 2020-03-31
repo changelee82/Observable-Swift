@@ -8,8 +8,8 @@
 
 public class PairObservable<O1: AnyObservable, O2: AnyObservable> : OwnableObservable {
     
-    internal typealias T1 = O1.ValueType
-    internal typealias T2 = O2.ValueType
+    public typealias T1 = O1.ValueType
+    public typealias T2 = O2.ValueType
     
     public typealias ValueType = (T1, T2)
     
